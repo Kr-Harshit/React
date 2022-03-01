@@ -1,0 +1,76 @@
+.todo_item {
+  min-height: 100px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.todo_task {
+  width: 100%;
+}
+
+.task-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  border-radius: 100%;
+  padding: 5px;
+  transform: scale(1.5);
+  color: rgb(97, 97, 97);
+  transition: 400ms;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.icon:hover {
+  transform: scale(1.8);
+}
+
+.icons:active {
+  color: rgba(103, 28, 201, 0.89);
+}
+
+.update-form {
+  padding: 5px 16px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+  min-height: 150px;
+}
+
+.sub_task_viewer {
+  display: flex;
+  flex-flow: column;
+}
+
+.sub_task_header {
+  color: gray;
+  width: 100px;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  border-bottom: 1px solid rgb(177, 177, 177);
+  margin-bottom: 10px;
+}
+
+.sub_task_item {
+  text-decoration: none;
+  padding: 0.5rem;
+  font: inherit;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.sub_task_item input {
+  margin-right: 1rem;
+}
+
+.check_sub_task:checked + p {
+  text-decoration: line-through;
+  color: gray;
+}

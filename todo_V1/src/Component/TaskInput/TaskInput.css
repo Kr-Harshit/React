@@ -1,0 +1,71 @@
+.task_input {
+    width:80%;
+    height: 20rem;
+    box-shadow: 0 2px 3px 3px  rgba(158, 156, 156, 0.603);
+    border-radius: 10px;
+}
+
+.task_input form {
+    width:100%;
+    height: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.task_input form input {
+    width: 100%;
+    padding: 10px;
+    line-height: 1.5rem;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 175, 175);
+    margin: 10px 0;
+    margin-right: 10px;
+    color: rgb(110, 110, 110);
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.task_input form input:hover{
+    transform: scale(1.02);
+}
+
+.deadline {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+
+.deadline input {
+    width: 45%;
+}
+
+.submit-btn{
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    background-color: #0275d8;
+    color: beige;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.submit-btn:hover,
+.submit-btn:active{
+    transform: scale(1.1);
+    background-color: #1a8bee;
+}
+
+
+
+

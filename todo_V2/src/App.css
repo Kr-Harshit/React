@@ -1,0 +1,74 @@
+.App {
+  padding: 0;
+  height: 100%;
+  display: flex;
+}
+
+.task-adder-viewer {
+  height: 100%;
+  min-width: 100%;
+  text-align: center;
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: space-between;
+  transition: 850ms;
+}
+
+.task-adder-viewer.active {
+  min-width: 85%;
+  transition: 350ms;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+form {
+  padding: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.input {
+  width: 80%;
+}
+
+.sub-task {
+  display: flex;
+  align-items: center;
+}
+
+.form-icon {
+  color: rgba(103, 28, 201, 0.89);
+  transform: scale(1.5);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.sub-task-drawer {
+  padding-top: 3rem;
+  position: fixed;
+  width: 0%;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  transition: 850ms;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.sub-task-drawer.active {
+  width: 15%;
+  transition: 350ms;
+}

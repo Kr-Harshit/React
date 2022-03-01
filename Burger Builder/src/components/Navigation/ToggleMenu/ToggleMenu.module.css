@@ -1,0 +1,25 @@
+.ToggleMenu{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.ToggleMenu i {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    transition: transform 0.1s ease;
+    color:white;
+}
+
+.ToggleMenu:active,
+.ToggleMenu i:hover{
+    transform: scale(1.2);
+}
+
+
+@media (min-width: 500px){
+    .MoboOnly{
+        display: none;
+    }
+}

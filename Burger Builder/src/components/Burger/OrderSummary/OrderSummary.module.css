@@ -1,0 +1,21 @@
+.SummaryTable{
+    border-collapse: collapse;
+}
+
+.SummaryTable td:nth-child(2){
+    background-color: rgba(202, 191, 191, 0.644);
+}
+
+
+.SummaryTable th{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0;
+    padding: 15px;
+}
+
+.SummaryTable td{
+    padding: 15px;
+    text-align: center;
+}
+

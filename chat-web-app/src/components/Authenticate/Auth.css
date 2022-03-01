@@ -1,0 +1,38 @@
+.auth {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.auth__body {
+  width: 25vw;
+  max-width: "480px";
+  min-height: "480px";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth__inputWrapper {
+  margin: 0 10px;
+  margin-bottom: 15px;
+}
+
+.auth__footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgot_password {
+  text-align: center;
+  margin: 20px 0;
+}

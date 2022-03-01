@@ -1,0 +1,10 @@
+.header_path {
+  display: flex;
+}
+
+.header-address {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  margin-right: 5px;
+}

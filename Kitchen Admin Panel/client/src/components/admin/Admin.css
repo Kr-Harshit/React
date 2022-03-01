@@ -1,0 +1,12 @@
+.admin {
+    height: 100vh;
+    display: flex;
+    flex-flow: row;
+}
+
+.column-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 100%;
+}
